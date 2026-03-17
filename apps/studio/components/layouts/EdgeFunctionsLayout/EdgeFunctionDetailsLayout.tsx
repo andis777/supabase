@@ -115,15 +115,15 @@ const EdgeFunctionDetailsLayout = ({
                 label: 'Invocations',
                 href: `/project/${ref}/functions/${functionSlug}/invocations`,
               },
-              {
-                label: 'Logs',
-                href: `/project/${ref}/functions/${functionSlug}/logs`,
-              },
             ]
           : []),
         {
           label: 'Details',
           href: `/project/${ref}/functions/${functionSlug}/details`,
+        },
+        {
+          label: 'Logs',
+          href: `/project/${ref}/functions/${functionSlug}/logs`,
         },
         {
           label: 'Code',
